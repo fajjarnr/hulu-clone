@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 function Thumbnail({ result }) {
-  const BASE_URL = "https://image.tmdb.org/t/original/";
+  const BASE_URL = "https://image.tmdb.org/t/p/original/";
 
   return (
     <div>
