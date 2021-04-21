@@ -1,9 +1,5 @@
 function Nav() {
-  return (
-    <div>
-      <div className="container">Hello</div>
-    </div>
-  );
+  return <div></div>;
 }
 
 export default Nav;
