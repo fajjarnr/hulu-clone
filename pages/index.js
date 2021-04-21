@@ -34,7 +34,7 @@ export async function getServerSideProps(context) {
 
     return {
       props: {
-        data,
+        data: data.results,
       },
     };
   } catch (error) {
